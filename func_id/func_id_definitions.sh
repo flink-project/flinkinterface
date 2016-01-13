@@ -1,5 +1,5 @@
  # definitions of the func ids
-names[0]="Infoo";
+names[0]="Info";
 hex[0]=00;
 
 names[1]="Analog input"
