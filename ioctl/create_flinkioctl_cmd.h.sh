@@ -4,7 +4,7 @@ SCRIPT=$(readlink -f $0)
 SCRIPT_DIR=$(dirname $SCRIPT)
 
 # flinklib
-filepath_ioctl_flinklib_dir=./include
+filepath_ioctl_flinklib_dir=.
 filepath_ioctl_flinklib=$filepath_ioctl_flinklib_dir/flinkioctl_cmd.h
 mkdir -p $filepath_ioctl_flinklib_dir
 
@@ -39,6 +39,7 @@ echo "/*******************************************************************
  *  @brief flink userspace library, ioctl comand definitions.
  *
  *  This header file contains definitions for ioctl calls.
+ *   It is included in \"flinkioctl.h\"
  *
  *  THIS FILE WAS CREATED AUTOMATICALLY - do not change
  *
