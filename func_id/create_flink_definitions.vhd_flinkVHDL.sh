@@ -13,7 +13,7 @@ source $SCRIPT_DIR/func_id_definitions.sh
 
 
 
-# flinklib: flink_definitions.vhd
+# flinkVHDL: flink_definitions.vhd
 # ###############################
 filepath=$filepath_func_id_flinkvhdl
 
@@ -86,7 +86,7 @@ PACKAGE fLink_definitions IS
 # Interface IDs:
 content=""
 
-for (( i=0; i < ${#names[@]}; i++)); do		# whole list
+for (( i=0; i < ${#namesVHDL[@]}; i++)); do		# whole list
 	if [ "${namesVHDL[i]}" != "" ]
 	then
 		content="$content\tCONSTANT ${namesVHDL[i]}\t\t\t\t\t\t\t: INTEGER := $i;\n"
