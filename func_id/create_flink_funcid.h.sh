@@ -61,7 +61,7 @@ for (( i=0; i < ${#names[@]}; i++)); do		# whole list
         content="$content"  #nop
         else
 #        content="$content\tint\t${namesDeep[i]}($i);\n"
-        content="$content#define ${namesDeep[i]}\t\t$i;\n"
+        content="$content#define ${namesDeep[i]}\t\t$i\n"
     fi
 done
 
