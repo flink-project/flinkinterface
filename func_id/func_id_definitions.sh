@@ -74,10 +74,10 @@ hex[14]=0E;
 namesVHDL[14]="";
 namesDeep[14]="";
 
-names[15]="unknown";
+names[15]="UART";
 hex[15]=0F;
-namesVHDL[15]="";
-namesDeep[15]="";
+namesVHDL[15]="c_fLink_uart_id";
+namesDeep[15]="UART_INTERFACE_ID";
 
 names[16]="Watch dog";
 hex[16]=10;
