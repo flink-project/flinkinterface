@@ -119,10 +119,10 @@ hex[23]=17;
 namesVHDL[23]="";
 namesDeep[23]="";
 
-names[24]="unknown";
+names[24]="IRQ_Multiplexer";
 hex[24]=18;
-namesVHDL[24]="";
-namesDeep[24]="";
+namesVHDL[24]="c_fLink_irq_multiplexer_id";
+namesDeep[24]="IRQ_MULTIPLEXER_INTERFACE_ID";
 
 names[25]="unknown";
 hex[25]=19;
