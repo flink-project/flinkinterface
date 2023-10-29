@@ -109,10 +109,10 @@ hex[21]=15;
 namesVHDL[21]="c_fLink_stepper_motor_id";
 namesDeep[21]="STEPPER_MOTOR_INTERFACE_ID";
 
-names[22]="Reflex Sensor";
+names[22]="unknown";
 hex[22]=16;
-namesVHDL[22]="c_fLink_reflectiv_sensor_id";
-namesDeep[22]="REFLECTIV_INTERFACE_ID";
+namesVHDL[22]="";
+namesDeep[22]="";
 
 names[23]="unknown";
 hex[23]=17;
