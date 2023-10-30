@@ -37,4 +37,16 @@ i=$((i+1));
 
 names[i]="SELECT_AND_WRITE"
 hex[i]=43;
+i=$((i+1));
+
+names[i]="REGISTER_IRQ"
+hex[i]=50;
 i=$((i+1)); 
+
+names[i]="UNREGISTER_IRQ"
+hex[i]=51;
+i=$((i+1));
+
+names[i]="GET_SIGNAL_OFFSET"
+hex[i]=52;
+i=$((i+1));
