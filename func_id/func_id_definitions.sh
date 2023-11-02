@@ -87,7 +87,7 @@ namesDeep[16]="WD_INTERFACE_ID";
 names[17]="Sensor";
 hex[17]=11;
 namesVHDL[17]="c_fLink_sensor_id";
-namesDeep[17]="";
+namesDeep[17]="SENSOR_INTERFACE_ID";
 
 names[18]="unknown";
 hex[18]=12;
