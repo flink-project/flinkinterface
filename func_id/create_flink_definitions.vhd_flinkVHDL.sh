@@ -31,7 +31,7 @@ echo "--------------------------------------------------------------------------
 --                                                                           --
 -------------------------------------------------------------------------------
 --                                                                           --
--- fLink definitions                                                         --
+-- flink definitions                                                         --
 --                                                                           --
 --  THIS FILE WAS CREATED AUTOMATICALLY - do not change                      --
 --                                                                           --
@@ -39,9 +39,9 @@ echo "--------------------------------------------------------------------------
 --                   create_flink_definitions.vhd_flinkVHDL.sh               --
 --                                                                           --
 -------------------------------------------------------------------------------
--- Copyright 2014 NTB University of Applied Sciences in Technology           --
+-- Copyright 2023 OST University of Applied Sciences in Technology           --
 --                                                                           --
--- Licensed under the Apache License, Version 2.0 (the \"License\");           --
+-- Licensed under the Apache License, Version 2.0 (the \"License\");         --
 -- you may not use this file except in compliance with the License.          --
 -- You may obtain a copy of the License at                                   --
 --                                                                           --

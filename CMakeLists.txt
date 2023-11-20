@@ -14,7 +14,6 @@ add_custom_target(subdevtypes
 # Create: flink_funcid.h
 add_custom_command(
 	OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/flink_funcid.h
-#        $(dirnam {CMAKE_CURRENT_LIST_DIR}/flink_funcid.h
 	COMMAND ${CMAKE_CURRENT_LIST_DIR}/func_id/create_flink_funcid.h.sh
 	DEPENDS ${CMAKE_CURRENT_LIST_DIR}/func_id/func_id_definitions.sh
 		${CMAKE_CURRENT_LIST_DIR}/func_id/create_flink_funcid.h.sh
