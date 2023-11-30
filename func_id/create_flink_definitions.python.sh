@@ -44,9 +44,9 @@ __author__ = "Urs Graf, Patrick Good"
 __license__ = "http://www.apache.org/licenses/LICENSE-2.0"
 __version__ = "1.0"
 
-REGISTER_WIDTH		         = 4     # in byte
-REGISTER_WIDTH_BIT	         = REGISTER_WIDTH * 8
-HEADER_SIZE		             = 16    # in byte
+REGISTER_WIDTH		     = 4     # in byte
+REGISTER_WIDTH_BIT	     = REGISTER_WIDTH * 8
+HEADER_SIZE		     = 16    # in byte
 SUBHEADER_SIZE	             = 16    # in byte
 TOTAL_HEADER_SIZE            = HEADER_SIZE + SUBHEADER_SIZE
 
@@ -58,8 +58,8 @@ MOD_STATUS_OFFSET            = 0x10  # in byte
 MOD_CONF_OFFSET              = 0x14  # in byte
 
 INFO_DESC_SIZE               = 28    # in byte
-	
-	" >> $filepath
+
+" >> $filepath
 
 
 # Interface IDs:
@@ -68,18 +68,16 @@ content=""
 for (( i=0; i < ${#namesDeep[@]}; i++)); do		# whole list
 	if [ "${namesDeep[i]}" != "" ]
 	then
-		content="$content${namesDeep[i]}\t\t\t=\t0x${hex[i]};\n"
+		content="$content${namesDeep[i]}\t\t\t= 0x${hex[i]}\n"
 	fi
 done
 
-
-content="$content
-\n
-REFLECTIVE_SENSOR_SUBTYP\t\t\t= 0x4\n\n
-INTERFACE_TYPE_MASK\t\t\t= 0xFFFF\n
-INFO_DEVICE_SIZE\t\t\t= 0x80\n"
-
 echo -e $content >> $filepath	# write file
+
+echo "REFLECTIVE_SENSOR_SUBTYP       = 0x4
+INTERFACE_TYPE_MASK            = 0xFFFF
+INFO_DEVICE_SIZE               = 0x80
+" >> $filepath
 
 echo "$filepath created"
 exit 0
